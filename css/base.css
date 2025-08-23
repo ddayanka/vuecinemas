@@ -54,7 +54,7 @@ body {
   border-radius: 4px;
 }
 
-@media(hover: hover) {
+@media (hover: hover) {
   .btn:hover {
     background: var(--bg);
     color: var(--white);
@@ -68,3 +68,16 @@ body {
   }
 }
 
+.title {
+  display: flex;
+  align-items: flex-start;
+}
+.title__h {
+  font-family: var(--CR);
+  font-weight: 400;
+  font-size: 36px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  border-bottom: 2px solid var(--orange);
+  color: var(--orange);
+}
